@@ -4,13 +4,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Student Login</title>
-	<script>
-    history.pushState(null, null, location.href);
-    window.onpopstate = function () {
-        history.go(1);
-    };
-	</script>
+	<title>Teacher Login</title>
+	<!-- Font Icon -->
 	<link rel="stylesheet"
 		href="fonts/material-icon/css/material-design-iconic-font.min.css">
 	
@@ -27,7 +22,7 @@
 				<figure>
 					<img src="images/signin-image.jpg" alt="sing up image">
 				</figure>
-				<a href="register-student" class="signup-image-link">Create an account</a>
+				<a href="register-teacher" class="signup-image-link">Create an account</a>
 			</div>
 			<div class="signin-form">
 			
@@ -41,8 +36,8 @@
             		</script>
 				</c:if>
 				
-				<h2 class="form-title">Student Log In</h2>
-				<form action="login-student" method="post" class="register-form" id="login-form">
+				<h2 class="form-title">Teacher Log In</h2>
+				<form action="login-teacher" method="post" class="register-form" id="login-form">
 					<div class="form-group">
 						<label for="email"><i class="zmdi zmdi-email"></i></label> <input
 						type="email" name="email" id="email" placeholder="Your Email" />

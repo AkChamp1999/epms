@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Student Registration</title>
+    <title>Teacher Registration</title>
 	<!-- Font Icon -->
 	<link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -36,53 +36,26 @@
                     	title: 'Success!',
                     	text: '${successMessage}',
                 		}).then(function() {
-                		    window.location = "login-student";
+                		    window.location = "login-teacher";
                 		});
             		</script>
 				</c:if>
 				
-				<h2 class="form-title">Student Registration From</h2>
-				<form method="post" action="register-student" class="register-form" id="register-form">
-					<div class="form-group">
-						<label for="rollNo"><i class="fa fa-id-card"></i></label> <input
-							type="number" name="rollNo" id="rollNo" placeholder="Your Roll No" required/>
-					</div>					
+				<h2 class="form-title">Teacher Registration From</h2>
+				<form method="post" action="register-teacher" class="register-form" id="register-form">				
 					<div class="form-group">
 						<label for="fullName"><i
 							class="zmdi zmdi-account material-icons-name"></i></label> <input
-							type="text" name="fullName" id="fullName" placeholder="Your Full Name" required/>
+							type="text" name="fullName" id="fullName" placeholder="Your Full Name" />
 					</div>
 					<div class="form-group">
 						<label for="email"><i class="zmdi zmdi-email"></i></label> <input
-							type="email" name="email" id="email" placeholder="Your Email" required/>
+							type="email" name="email" id="email" placeholder="Your Email" />
 					</div>
 					<div class="form-group">
 						<label for="password"><i class="zmdi zmdi-lock"></i></label> <input
-							type="password" name="password" id="password" placeholder="Password" required/>
+							type="password" name="password" id="password" placeholder="Password" />
 					</div>
-					<div class="form-group">
-		                <select class="form-control" id="course" name="course" required>
-		                  <option value="" selected disabled>Course</option>
-		                  <option value="MCA">MCA</option>
-		                  <option value="MBA">MBA</option>
-		                </select>
-              		</div>
-            		<div class="form-group">
-                		<select class="form-control" id="division" name="division" required>
-                			<option value="" selected disabled>Division</option>
-		                    <option value="A">A</option>
-		                    <option value="B">B</option>
-		                    <option value="C">C</option>
-                		</select>
-            		</div>
-            		<div class="form-group">
-                		<select class="form-control" id="batchYear" name="batchYear" required>
-                			<option value="" selected disabled>Batch</option>
-		                    <option value="2023-batch">2023-batch</option>
-		                    <option value="2024-batch">2024-batch</option>
-		                    <option value="2025-batch">2025-batch</option>
-                		</select>
-            		</div>
 					<div class="form-group form-button">
 						<input type="submit" name="register" id="register"
 							class="form-submit" value="Register" />
@@ -93,7 +66,7 @@
 				<figure>
 					<img src="images/signup-image.jpg" alt="sing up image">
 				</figure>
-				<a href="login-student" class="signup-image-link">I am already member</a>
+				<a href="login-teacher" class="signup-image-link">I am already member</a>
 			</div>
 		</div>
 	</div>

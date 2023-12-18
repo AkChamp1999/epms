@@ -13,6 +13,7 @@
         }
         .jumbotron {
             text-align: center;
+            margin-top: 50px;
         }
         .btn-lg {
             margin-top: 10px;
@@ -39,7 +40,7 @@
                 <a class="btn btn-success btn-lg" href="/register-teacher" role="button">Register as Teacher</a>
                 <br>
                 <a href="login-student">Already registered as Student</a>
-                <a href="login-student">Already registered as Teacher</a>
+                <a href="login-teacher">Already registered as Teacher</a>
             </p>
         </div>
     </div>

@@ -1,0 +1,5 @@
+{"properties": [{
+  "name": "epms.server.directory.path",
+  "type": "java.lang.String",
+  "description": "A description for 'epms.server.directory.path'"
+}]}
